@@ -1,0 +1,34 @@
+print("Hello world")
+from pysine import sine
+
+B=491
+E=328
+G=390
+Fsharp=368
+A=437
+Dsharp=309
+F=347
+D=292
+
+def HarryPotter():
+    sine(frequency=B, duration=0.4)
+    sine(frequency=E, duration=0.4)
+    sine(frequency=G, duration=0.4)
+    sine(frequency=Fsharp, duration=0.3)
+    sine(frequency=E, duration=0.5)
+    sine(frequency=B, duration=0.3)
+    sine(frequency=A, duration=1.0)
+    sine(frequency=Fsharp, duration=1.0)
+    sine(frequency=E, duration=0.5)
+    sine(frequency=G, duration=0.25)
+    sine(frequency=Fsharp, duration=0.5)
+    sine(frequency=D, duration=1.0)
+    sine(frequency=F, duration=0.5)
+    sine(frequency=B/2, duration=1.0)
+    
+    
+
+HarryPotter()
+
+
+
